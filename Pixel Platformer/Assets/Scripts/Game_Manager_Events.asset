@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Game_Manager_Events
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-19.92019,"y":-133.731},"zoom":0.9,"elements":[{"argumentCount":1,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"AddCoins","$type":"System.String"}},"position":{"x":-188.0,"y":-101.0},"guid":"7c10be63-3004-4146-8414-68ad13e0e8d2","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"9"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Coins","$type":"System.String"},"object":null},"position":{"x":-155.0,"y":59.0},"guid":"d08f7e84-6621-4ae7-8e70-a3e56a17f261","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"11"},{"inputCount":2,"defaultValues":{},"position":{"x":86.0,"y":-11.0},"guid":"88937faf-1c4d-4d5d-bbe8-dbcc464f3cdc","$version":"A","$type":"Unity.VisualScripting.GenericSum","$id":"13"},{"kind":"Object","defaultValues":{"name":{"$content":"Coins","$type":"System.String"},"object":null},"position":{"x":257.0,"y":-101.0},"guid":"6b273764-be3b-45fb-9847-677cdc887890","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"15"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"assign","guid":"c02f7c35-6550-4f9a-ad41-f709f149fda3","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"argument_0","destinationUnit":{"$ref":"13"},"destinationKey":"0","guid":"fa6edb55-272d-4ed4-8f37-b8c3ba223e6a","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"1","guid":"0795aef5-0828-4116-a9f6-b3e6a53e4c2e","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"sum","destinationUnit":{"$ref":"15"},"destinationKey":"input","guid":"ebfe7f85-9452-4963-9d4b-124f33b80106","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-237.9999,"yMin":-191.9998,"xMax":720.0002,"yMax":279.0002},"label":"Add
+      Coins","comment":null,"color":{"r":0.238205,"g":0.9716981,"b":0.2337575,"a":1.0},"guid":"9e8ca1ae-9f2c-4b9e-8534-68c34d543cc0","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
