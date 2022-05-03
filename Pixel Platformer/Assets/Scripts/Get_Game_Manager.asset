@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Get_Game_Manager
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"input","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"output","label":null,"summary":null,"hideLabel":true}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":null,"key":"Damage","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[{"_type":"UnityEngine.GameObject","key":"GameManager","label":null,"summary":null,"hideLabel":false}],"title":"Get
+      Gamemanager","summary":null,"pan":{"x":545.5013,"y":61.35073},"zoom":0.65,"elements":[{"defaultValues":{},"position":{"x":-250.0,"y":-32.0},"guid":"ed86b0eb-dc45-412e-b0c3-f26ceb01c15c","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"13"},{"defaultValues":{},"position":{"x":496.0,"y":92.0},"guid":"747462b3-2df0-4ffa-b1f6-8386f579aade","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"15"},{"chainable":false,"member":{"name":"FindGameObjectWithTag","parameterTypes":["System.String"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"%tag":{"$content":"Game
+      Manager","$type":"System.String"}},"position":{"x":-60.0,"y":-31.0},"guid":"38496933-9171-4f8e-907d-824d9ea073f5","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"17"},{"defaultValues":{},"position":{"x":268.0,"y":-31.0},"guid":"bff30dfd-8a94-4ea7-b8ed-31c2e9da7a04","$version":"A","$type":"Unity.VisualScripting.NullCheck","$id":"20"},{"sourceUnit":{"$ref":"17"},"sourceKey":"exit","destinationUnit":{"$ref":"20"},"destinationKey":"enter","guid":"c454a681-80e5-4ea2-8a91-cb868ca7a99e","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"ifNotNull","destinationUnit":{"$ref":"15"},"destinationKey":"output","guid":"3f966baa-1e8e-4670-8ec4-0dc5b583c706","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"input","destinationUnit":{"$ref":"17"},"destinationKey":"enter","guid":"f50e9566-e3f9-4962-ab1e-ecdb56569a70","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"result","destinationUnit":{"$ref":"20"},"destinationKey":"input","guid":"70489e09-0484-4ff7-ad93-20c60445cd1b","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"result","destinationUnit":{"$ref":"15"},"destinationKey":"GameManager","guid":"5bc490dc-9e37-4d1f-b36e-e779555932da","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Game Manager
+  - Player Start
+  - Instant Kill
   layers:
   - Default
   - TransparentFX
